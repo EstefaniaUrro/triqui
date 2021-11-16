@@ -1,14 +1,13 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 body {
@@ -17,27 +16,24 @@ body {
   background-color: #282c34;
   color: #ddd;
 }
-
-ol, ul {
+ol,
+ul {
   padding-left: 30px;
 }
-
 .board-row:after {
   clear: both;
   content: "";
   display: table;
 }
-
 .status {
   margin-bottom: 10px;
 }
-
 .square {
   background: #fff;
   border: 1px solid #999;
   float: left;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 50px;
   height: 50px;
   margin-right: -1px;
@@ -46,21 +42,17 @@ ol, ul {
   text-align: center;
   width: 50px;
 }
-
 .square:focus {
   outline: none;
 }
-
 .kbd-navigation .square:focus {
   background: #ddd;
 }
-
 .game {
   display: flex;
   flex-direction: row;
 }
-
 .game-info {
   margin-left: 20px;
 }
-
+/*# sourceMappingURL=main.9c20faf6.chunk.css.map */
